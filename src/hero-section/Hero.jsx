@@ -8,7 +8,7 @@ import Arrow from './arrow-icon.svg'
   return (
     <div className='md:py-20 py-10 md:flex md:mx-12 mx-6 '>
       <div className="left-hero-page  md:w-1/2 w-full">
-        <div className="flex  p-2 border-2 border-violet-900 w-72 rounded-md mb-6 ">
+        <div className="flex  p-2 border-2 border-violet-900 w-72 rounded-md mb-6 md:z-auto z-0 ">
             <div className=" flex text-center">
                 <img src={NaijaLogo} alt="nigeria flag" />
                 <p className='ml-2'>Naira</p>
