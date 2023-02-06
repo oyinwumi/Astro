@@ -16,8 +16,8 @@ const Navbar = () => {
       </div>
       </div>
       
-      <ul className= {`md:flex px-4 md:text-center md:text-black text-white  md:z-auto z-50 md:static absolute w-full left-0 md:w-auto
-         md:pb-0 pb-12 md:pl-0 pl-9  md:opacity-100 md:bg-white bg-violet-900   transition-all ease-in duration-500 ${open ? 'top-20' : 'top-[-490px]'} `}>
+      <ul className= {`md:flex px-4 md:text-centertext-black md:z-auto z-50 md:static absolute w-full left-0 md:w-auto
+         md:pb-0 pb-12 md:pl-0 pl-9  md:opacity-100 md:bg-white bg-white   transition-all ease-in duration-500 ${open ? 'top-20' : 'top-[-490px]'} `}>
           <li className='mx-4 my-10 md:my-0'> <Link to='/' className='  hover:text-violet-900 duration-500 md:text-2xl xl'>Contact</Link></li>
           <li  className='mx-4 my-10 md:my-0'><Link to='/'  className='  hover:text-violet-900 duration-500 md:text-2xl xl:'>FAQ</Link></li>
           <li  className='mx-4 my-10 md:my-0'>  <Link to='/'  className='  hover:text-violet-900 duration-500 md:text-2xl xl: '>Blog</Link></li>
