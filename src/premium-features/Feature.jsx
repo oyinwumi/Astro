@@ -5,7 +5,7 @@ import Fund from './fund-1con.svg'
 
 const Feature = () => {
   return (
-    <div className='md:mx-12 mx-6 md:pb-20 pb-10'>
+    <div className='md:mx-14 mx-8 md:pb-20 pb-10'>
       <h2 className='text-violet-900 font-semibold md:text-5xl text-3xl md:w-5/12 w-full md:mt-0 mt-8 mb-8'>Premium Features of Astro Africa</h2>
 
      <div className='md:flex justify-center'>

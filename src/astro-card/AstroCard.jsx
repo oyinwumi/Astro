@@ -4,7 +4,7 @@ import Arrow from './arrow-icon.svg'
 
 const AstroCard = () => {
   return (
-    <div className='md:flex md:justify-between  md:mx-12 mx-6 md:pb-20 pb:10'>
+    <div className='md:flex md:justify-between  md:mx-14 mx-8 md:pb-20 pb:10'>
      <div className='  border-2 bg-gray-300 md:w-5/12 w-full '>
      <img src= {Astrocard} alt=" astrocard "  className='items-center m-auto '/>
      </div>
