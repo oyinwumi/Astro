@@ -10,7 +10,7 @@ import Testimony from './testimony/Testimony';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App overflow-x-hidden ">
       
       <Router>
         <Routes>

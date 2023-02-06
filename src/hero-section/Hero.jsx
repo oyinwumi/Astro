@@ -6,7 +6,7 @@ import Arrow from './arrow-icon.svg'
 
  export default function Hero () {
   return (
-    <div className='md:py-20 py-10 md:flex md:mx-14 mx-8 '>
+    <div className='md:py-20 py-10 md:flex md: justify-between md:mx-14 mx-8 '>
       <div className="left-hero-page  md:w-1/2 w-full">
         <div className="flex  p-2 border-2 border-violet-900 w-72 rounded-md mb-6 md:z-auto z-0 ">
             <div className=" flex text-center">
@@ -24,10 +24,10 @@ import Arrow from './arrow-icon.svg'
         </div>
       <div className='flex gap-4 md:mb-0 mb-10'>
       <button className='md:w-2/5 w-1/2  border-0 border-solid rounded text-center md:px-10 h-9 cursor-pointer bg-violet-900  hover:bg-opacity-70 text-white outline-none'>Trade Now</button> 
-        <button className=' relative md:w-2/5  w-1/2 border-2 border-solid rounded text-center md:px-10  h-9 cursor-pointer bg-white  hover:bg-violet-900 text-violet-900 hover:text-white outline-none'>Check Rate <img src={Arrow} alt="" className='ml-2 absolute md:bottom-2  bottom-2 md:right-14 right-5' /></button> 
+        <button className=' relative md:w-2/5  w-1/2 border-2 border-solid rounded text-center md:px-10  h-9 cursor-pointer bg-white  hover:bg-violet-900 text-violet-900 hover:text-white outline-none'>Check Rate <img src={Arrow} alt="" className='ml-2 absolute md:bottom-2  bottom-2 md:right-12 right-5' /></button> 
       </div>
       </div>
-      <div className="right-hero-page  ml-5 md:w-6/12 w-full">
+      <div className=" md:w-6/12 w-full">
         <img src={Mockup} alt="" className='w-auto h-auto ' />
       </div>
     </div>
